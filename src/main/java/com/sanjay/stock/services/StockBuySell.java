@@ -20,16 +20,6 @@ class StockBuySell {
     }
 
     void stockBuySell(HashMap<String, StockDto> map) {
-//        PriorityQueue<Solution.BuySell> sell = new PriorityQueue<>(new Comparator<Solution.BuySell>() {
-//            public int compare(Solution.BuySell a, Solution.BuySell b) {
-//                return (int) (a.cost - b.cost);
-//            }
-//        });
-//        PriorityQueue<Solution.BuySell> buy = new PriorityQueue<>(new Comparator<Solution.BuySell>() {
-//            public int compare(Solution.BuySell a, Solution.BuySell b) {
-//                return (int) (b.cost - a.cost);
-//            }
-//        });
         double[] price = new double[map.size()];
         int n = map.size();
         int i = 0;
